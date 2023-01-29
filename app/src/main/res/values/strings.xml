@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Ifood</string>
+    <string name="title_activity_cadastro">register an account</string>
+    <string name="title_activity_login">access my account</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="invalid_email">valid email is required</string>
+    <string name="invalid_credentials">Username or password is invalid</string>
+    <string name="permission_denied">Permissions denied</string>
+    <string name="msg_request_permission">To use the app it is necessary to accept the permissions.</string>
+    <string name="accept">Accept</string>
+    <string name="exit">Exit</string>
+    <string name="upload_failed">Upload Failed</string>
+    <string name="delete_failed">Failed to delete file</string>
+    <string name="enter_your_destination">Enter your destination</string>
+    <string name="inform_the_address">Inform the address</string>
+    <string name="confirm_your_address">Confirm your address</string>
+    <string name="confirm">Confirm</string>
+    <string name="requests">Requests</string>
+    <string name="waiting_for_requests">Waiting for requests</string>
+    <string name="want_to_cancel">Want to cancel?</string>
+    <string name="access">Access</string>
+    <string name="user">User</string>
+    <string name="company">Company</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="add">Add</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="profile">Profile</string>
+    <string name="category">Category</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="delivery_tax">Delivery tax</string>
+    <string name="save">Save</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="invalid_product_name">Not a valid product name</string>
+    <string name="invalid_description">Valid description is required</string>
+    <string name="invalid_price">Valid price is required</string>
+    <string name="undo">Undo</string>
+    <string name="menu">Menu</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="sub_area">Sub Area</string>
+    <string name="number">Number</string>
+    <string name="zip_code">ZIP code</string>
+    <string name="contact">Contact</string>
+    <string name="see_cart">See cart</string>
+    <string name="qtd">unit:</string>
+    <string name="tel">tel</string>
+    <string name="loading">Loading…</string>
+    <string name="amount">Amount</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="demand">Demand</string>
+    <string name="payment">Payment</string>
+    <string name="thoroughfare">Thoroughfare</string>
+    <string name="address_not_found">The address has not been configured yet</string>
+</resources>

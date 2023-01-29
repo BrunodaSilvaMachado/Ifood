@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/textNomeRefeicao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            tools:text="Sushi de salmão"
+            android:textSize="16sp"
+            android:textStyle="bold" android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+            android:id="@+id/textDescricaoRefeicao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            tools:text="Salmão com nosso delicioso arroz temperado"
+            android:textSize="14sp"/>
+
+    <TextView
+            android:id="@+id/textPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="R$ 19.90"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+    />
+
+
+</LinearLayout>

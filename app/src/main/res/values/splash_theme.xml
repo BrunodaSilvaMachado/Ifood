@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/colorSplashBackground</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <!--TODO: converter ic_logo_24 em um adaptative icon-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_24</item>
+        <item name="windowSplashScreenAnimationDuration">2750</item>
+        <!--<item name="postSplashScreenTheme">@style/Theme.Splash</item>-->
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/colorSplashBackground</item>
+    </style>
+</resources>

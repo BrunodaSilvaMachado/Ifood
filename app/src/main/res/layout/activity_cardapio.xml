@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.CardapioActivity" android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" android:layout_marginTop="8dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivCompany"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/perfil"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:layout_marginStart="16dp">
+            <TextView
+                    android:id="@+id/tvNameCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="China in box"
+                    android:textSize="16sp"
+                    android:textStyle="bold" android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            <TextView
+                    android:id="@+id/tvCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Chinesa"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+            android:onClick="verCarrinho"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_radius"
+            android:padding="8dp" android:gravity="center"
+            android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:minHeight="48dp">
+        <TextView
+                android:text="@string/see_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                android:textColor="@color/white" android:textSize="16sp"/>
+        <TextView
+                android:text="@string/qtd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" android:textSize="16sp"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+        <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tvQtd"
+                android:textColor="@color/white" android:textSize="16sp"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+        <TextView
+                tools:text="R$"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tvPreco"
+                android:textColor="@color/white" android:textSize="16sp"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+    <include layout="@layout/recycler_view" android:layout_width="match_parent" android:id="@+id/rvCardapio"
+             android:layout_height="match_parent" android:layout_marginStart="16dp"
+             android:layout_marginEnd="16dp" android:layout_marginBottom="16dp" android:layout_marginTop="8dp"/>
+</LinearLayout>

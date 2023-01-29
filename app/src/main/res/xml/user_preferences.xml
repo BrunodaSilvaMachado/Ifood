@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+            app:title="@string/profile">
+
+        <com.cursoandroid.ifood.activity.ui.CircleImageViewPreference
+                app:key="image_preference"
+                app:layout="@layout/circle_image_view"/>
+        <EditTextPreference
+                app:key="nome_usuario"
+                app:defaultValue="@null"
+                app:title="@string/name"
+                app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:title="@string/contact">
+        <EditTextPreference
+            app:key="email"
+            app:title="@string/e_mail"
+            app:enabled="false"
+            app:defaultValue="@null"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+                app:key="tel"
+                app:defaultValue="@null"
+                app:title="@string/tel"
+                app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/address">
+        <EditTextPreference
+                app:key="cidade"
+                app:defaultValue="@null"
+                app:title="@string/city"
+                app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+                app:key="bairro"
+                app:title="@string/sub_area"
+                app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+                app:key="rua"
+                app:defaultValue="@null"
+                app:title="@string/thoroughfare"
+                app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+                app:key="numero"
+                app:defaultValue="@null"
+                app:title="@string/number"
+                app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+                app:key="cep"
+                app:defaultValue="@null"
+                app:title="@string/zip_code"
+                app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
